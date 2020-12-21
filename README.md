@@ -27,8 +27,7 @@ source .venv/bin/activate
 ```
 ### 5. Pakete installieren
 ```
-pip3 install flask
-pip3 install flask_restx
+pip3 install flask flask_restx
 ```
 ### 6. App starten
 ```
