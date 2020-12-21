@@ -1,28 +1,27 @@
 # flask-swagger
 
 ## Installationsanleitung
-### Repository klonen
+### 1. Repository klonen
 ```
 git clone https://github.com/meisterk/flask-swagger
 ```
 
-### In das Projektverzeichnis wechseln
+### 2. In das Projektverzeichnis wechseln
 ```
 cd flask-swagger
 ```
 
-### Virtuelle Python-Umgebung erstellen
+### 3. Virtuelle Python-Umgebung erstellen
 ```
 python3 -m venv .venv
-source .venv/bin/activate
 ```
 
-### Virtuelle Python-Umgebung aktivieren
-#### Linux
+### 4. Virtuelle Python-Umgebung aktivieren
+#### a) Linux
 ```
 source .venv/bin/activate
 ```
-#### Windows
+#### b) Windows
 ```
 .venv\Scripts\Activate.ps1
 ```
