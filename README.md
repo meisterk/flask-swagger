@@ -25,8 +25,12 @@ source .venv/bin/activate
 ```
 .venv\Scripts\Activate.ps1
 ```
-
-### 5. App starten
+### 5. Pakete installieren
+```
+pip3 install flask
+pip3 install flask_restx
+```
+### 6. App starten
 ```
 python3 app.py
 ```
