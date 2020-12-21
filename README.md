@@ -25,3 +25,11 @@ source .venv/bin/activate
 ```
 .venv\Scripts\Activate.ps1
 ```
+
+### 5. App starten
+```
+python3 app.py
+```
+
+### 6. Im Browser auf App zugreifen
+http://127.0.0.1:5000/
