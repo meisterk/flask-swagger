@@ -17,8 +17,8 @@ ns = api.namespace('schueler', description='Schueler CRUD-Operationen')
 # Definition des Models (wird automatisch als Teil der API-Dokumentation angezeigt)
 schueler = api.model('schueler', {
     'id': fields.Integer(readonly=True, description="Eindeutige Id der Schüler:in"),
-    'schueler_vorname': fields.String(required=True, description="Vorname der Schüler:in"),
-    'schueler_nachname': fields.String(required=True, description="Nachname der Schüler:in")
+    'vorname': fields.String(required=True, description="Vorname der Schüler:in"),
+    'nachname': fields.String(required=True, description="Nachname der Schüler:in")
 })
 
 # DAO-Klasse mit CRUD-Methoden
@@ -53,9 +53,9 @@ class SchuelerDAO(object):
 
 # DAO-Objekt mit Beispieldaten
 DAO = SchuelerDAO()
-DAO.create({'schueler_vorname': 'Anna', 'schueler_nachname': 'Arm'})
-DAO.create({'schueler_vorname': 'Berta', 'schueler_nachname': 'Bein'})
-DAO.create({'schueler_vorname': 'Carla', 'schueler_nachname': 'Copf'})
+DAO.create({'vorname': 'Anna', 'nachname': 'Arm'})
+DAO.create({'vorname': 'Berta', 'nachname': 'Bein'})
+DAO.create({'vorname': 'Carla', 'nachname': 'Copf'})
 
 
 # API Endpoints: /schueler/ (GET, POST)
